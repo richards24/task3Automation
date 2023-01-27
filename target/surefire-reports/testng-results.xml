@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="9" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-27T22:48:41 CET" name="Amazon Test Suite" finished-at="2023-01-27T22:49:21 CET" duration-ms="40064">
+    <groups>
+    </groups>
+    <test started-at="2023-01-27T22:48:41 CET" name="Test" finished-at="2023-01-27T22:49:21 CET" duration-ms="40064">
+      <class name="tests.HomePageTest">
+        <test-method signature="verifySearchingItem(java.lang.String)[pri:0, instance:tests.HomePageTest@12028586]" started-at="2023-01-27T22:48:54 CET" name="verifySearchingItem" finished-at="2023-01-27T22:49:02 CET" duration-ms="8037" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tv]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchingItem -->
+      </class> <!-- tests.HomePageTest -->
+      <class name="tests.LoginPageTest">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.LoginPageTest@517cd4b]" started-at="2023-01-27T22:48:26 CET" name="setup" finished-at="2023-01-27T22:48:41 CET" duration-ms="14647" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6a0094c9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="navigateToLoginPage()[pri:0, instance:tests.LoginPageTest@517cd4b]" started-at="2023-01-27T22:48:41 CET" name="navigateToLoginPage" finished-at="2023-01-27T22:48:48 CET" duration-ms="7416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToLoginPage -->
+        <test-method signature="verifyLogin(java.lang.String, java.lang.String)[pri:1, instance:tests.LoginPageTest@517cd4b]" started-at="2023-01-27T22:48:48 CET" name="verifyLogin" finished-at="2023-01-27T22:48:54 CET" duration-ms="5696" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[richqatest545@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[amazon123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginPageTest@517cd4b]" started-at="2023-01-27T22:49:21 CET" name="tearDown" finished-at="2023-01-27T22:49:21 CET" duration-ms="220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginPageTest -->
+      <class name="tests.CheckoutTest">
+        <test-method signature="verifySelectAnItem()[pri:0, instance:tests.CheckoutTest@17776a8]" started-at="2023-01-27T22:49:02 CET" name="verifySelectAnItem" finished-at="2023-01-27T22:49:15 CET" duration-ms="13198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySelectAnItem -->
+        <test-method signature="verifyAddToCart()[pri:1, instance:tests.CheckoutTest@17776a8]" started-at="2023-01-27T22:49:15 CET" name="verifyAddToCart" finished-at="2023-01-27T22:49:21 CET" duration-ms="5707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddToCart -->
+      </class> <!-- tests.CheckoutTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Amazon Test Suite -->
+</testng-results>
